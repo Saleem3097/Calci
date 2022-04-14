@@ -1,6 +1,4 @@
-function clear(){
-    inputs=document.getElementsByClassName('inputs')
-    for(input of inputs){
-        input.value = ' '//this empties the input
-    }
+function clear1(){
+document.getElementById("inp1").value = ""
+document.getElementById("inp2").value = ""
 }
